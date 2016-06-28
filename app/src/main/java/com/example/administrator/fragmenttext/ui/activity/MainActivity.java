@@ -31,6 +31,8 @@ import com.example.administrator.fragmenttext.ui.fragment.WorkInformationFragmen
  * 修改时间：2015/12/1 14:32
  * 修改备注：
  */
+
+
 public class MainActivity extends BaseActivity implements View.OnClickListener {
     private TextView meTextView;
     private TextView foundTextView;
