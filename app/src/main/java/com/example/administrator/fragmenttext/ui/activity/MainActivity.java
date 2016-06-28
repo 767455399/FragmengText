@@ -62,6 +62,8 @@ public class MainActivity extends BaseActivity implements View.OnClickListener {
         //      ToastUtil.showWarningToast(getString(R.string.phone_password_wrong));
     }
 
+
+
     @Override
     protected void loadDate() {
      /*  显示加载框
