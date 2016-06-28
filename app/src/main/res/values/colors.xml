@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="black">#2B2B2B</color>
+    <color name="white">#FFFFFF</color>
+    <color name="green">#329E1C</color>
+    <color name="transparent">#00000000</color>
+    <color name="loading_color_1">#FE8C1D</color>
+    <color name="loading_color_2">#37BC9B</color>
+    <color name="loading_color_3">#3BB7E9</color>
+    <color name="loading_color_4">#FD6018</color>
+    <color name="loading_color_5">#FF6766</color>
+    <color name="background_picker">#ff579fff</color>
+    <color name="theme_orange_color">#FF9E3F</color>
+    <color name="theme_orange_color_pressed">#ec9441</color>
+    <color name="theme_orange_color_disable">#ec9441</color>
+
+    <color name="button_background_color">#FF9E3F</color>
+    <color name="drak">#CACACA</color>
+    <color name="drak_background">#F4F4F4</color>
+    <color name="common_title_text_color">#444444</color>
+    <color name="toolbar_icon_color">#444444</color>
+    <color name="toolbar_title_color">#333333</color>
+    <color name="common_text_hint_color">#C9C9C9</color>
+    <color name="common_background_color">#F4F4F4</color>
+    <color name="color_control_highlight">#1A000000</color>
+    <color name="cut_off_rule">#CACACA</color>
+    <color name="gray">#DBDBDB</color>
+    <color name="tab_text_checked">#FF444444</color>
+    <color name="tab_text_default">#99444444</color>
+    <color name="theme_color">#FF6766</color>
+    <color name="theme_color_pressed">#e76262</color>
+    <!-- PickerUI lines colors -->
+    <color name="lines_panel_pickerui">#aaaaaa</color>
+
+    <!-- PickerUI panel colors -->
+    <color name="background_panel_pickerui">#fffafafa</color>
+
+    <!-- PickerUI items colors -->
+    <color name="text_center_pickerui">#ff000000</color>
+    <color name="text_no_center_pickerui">#aaa</color>
+    <drawable name="list_item_selected">#aaaaaa</drawable>
+
+    <!-- PickerUI shadow colors -->
+    <color name="grey1">#00CCCCCC</color>
+    <color name="grey2">#10CCCCCC</color>
+    <color name="grey3">#20CCCCCC</color>
+    <color name="grey4">#30CCCCCC</color>
+    <color name="grey5">#50747474</color>
+
+
+</resources>

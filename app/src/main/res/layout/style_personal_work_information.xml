@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="200dp"
+    android:orientation="vertical"
+    android:layout_marginLeft="16dp"
+    android:layout_marginRight="16dp"
+
+    tools:showIn="@layout/activity_job_information">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:paddingBottom="5dp"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:id="@+id/basicDocumentLinearLayout"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_weight="1">
+
+            <ImageView
+                android:paddingTop="5dp"
+                android:id="@+id/basicDocumentImageView"
+                android:layout_gravity="center_horizontal"
+                android:src="@mipmap/basic_document"
+                android:layout_width="50dp"
+                android:layout_height="50dp" />
+
+            <TextView
+                android:paddingTop="5dp"
+                android:id="@+id/basicDocumentTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="基本资料" />
+
+            <ImageView
+                android:paddingTop="5dp"
+                android:id="@+id/basicDocument"
+                android:layout_gravity="center_horizontal"
+                android:src="@mipmap/basic_document"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/contactInformationLinearLayout"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_weight="1">
+
+            <ImageView
+                android:paddingTop="5dp"
+                android:id="@+id/contactInformationImageView"
+                android:layout_gravity="center_horizontal"
+                android:src="@mipmap/basic_document"
+                android:layout_width="50dp"
+                android:layout_height="50dp" />
+
+            <TextView
+                android:paddingTop="5dp"
+                android:id="@+id/contactInformationTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="联系人信息" />
+
+            <ImageView
+                android:paddingTop="5dp"
+                android:id="@+id/contactInformation"
+                android:layout_gravity="center_horizontal"
+                android:src="@mipmap/basic_document"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/educationalBackgroundInformationLinearLayout"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_weight="1">
+
+            <ImageView
+                android:paddingTop="5dp"
+                android:id="@+id/educationalBackgroundInformationImageView"
+                android:layout_gravity="center_horizontal"
+                android:src="@mipmap/basic_document"
+                android:layout_width="50dp"
+                android:layout_height="50dp" />
+
+            <TextView
+                android:paddingTop="5dp"
+                android:id="@+id/educationalBackgroundInformationTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="学历信息" />
+
+            <ImageView
+                android:paddingTop="5dp"
+                android:id="@+id/educationalBackgroundInformation"
+                android:layout_gravity="center_horizontal"
+                android:src="@mipmap/basic_document"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="@color/gray"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:paddingBottom="5dp"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:id="@+id/workInformationLinearLayout"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_weight="1">
+
+            <ImageView
+                android:paddingTop="5dp"
+                android:id="@+id/WorkInformationImageView"
+                android:layout_gravity="center_horizontal"
+                android:src="@mipmap/basic_document"
+                android:layout_width="50dp"
+                android:layout_height="50dp" />
+
+            <TextView
+                android:paddingTop="5dp"
+                android:id="@+id/WorkInformationTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="工作信息" />
+
+            <ImageView
+                android:paddingTop="5dp"
+                android:id="@+id/WorkInformation"
+                android:layout_gravity="center_horizontal"
+                android:src="@mipmap/basic_document"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/conditionOfAssetsLinearLayout"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_weight="1">
+
+            <ImageView
+                android:paddingTop="5dp"
+                android:id="@+id/conditionOfAssetsImageView"
+                android:layout_gravity="center_horizontal"
+                android:src="@mipmap/basic_document"
+                android:layout_width="50dp"
+                android:layout_height="50dp" />
+
+            <TextView
+                android:paddingTop="5dp"
+                android:id="@+id/conditionOfAssetsTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="资产状况" />
+
+            <ImageView
+                android:paddingTop="5dp"
+                android:id="@+id/conditionOfAssets"
+                android:layout_gravity="center_horizontal"
+                android:src="@mipmap/basic_document"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/creditInformationLinearLayout"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_weight="1">
+
+            <ImageView
+                android:paddingTop="5dp"
+                android:id="@+id/creditInformationImageView"
+                android:layout_gravity="center_horizontal"
+                android:src="@mipmap/basic_document"
+                android:layout_width="50dp"
+                android:layout_height="50dp" />
+
+            <TextView
+                android:paddingTop="5dp"
+                android:id="@+id/creditInformationTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="信用信息" />
+
+            <ImageView
+                android:paddingTop="5dp"
+                android:id="@+id/creditInformation"
+                android:layout_gravity="center_horizontal"
+                android:src="@mipmap/basic_document"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</LinearLayout>

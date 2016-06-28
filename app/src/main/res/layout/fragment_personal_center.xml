@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/gray"
+    android:orientation="vertical">
+
+
+    <View
+        android:layout_marginTop="10dp"
+        style="@style/style_line" />
+
+    <LinearLayout style="@style/personal_information_style">
+
+
+   <TextView
+       android:paddingLeft="16dp"
+       android:layout_width="120dp"
+       android:gravity="center_vertical"
+       android:layout_height="match_parent"
+       android:text="@string/name"/>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:text="小明"/>
+
+    </LinearLayout>
+
+    <View style="@style/style_line" />
+
+    <LinearLayout style="@style/personal_information_style">
+
+
+        <TextView
+            android:paddingLeft="16dp"
+            android:layout_width="120dp"
+            android:gravity="center_vertical"
+            android:layout_height="match_parent"
+            android:text="@string/id_number"/>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:text="422325198903035627"/>
+
+    </LinearLayout>
+
+    <View style="@style/style_line" />
+
+
+    <LinearLayout style="@style/personal_information_style">
+
+
+        <TextView
+            android:paddingLeft="16dp"
+            android:layout_width="120dp"
+            android:gravity="center_vertical"
+            android:layout_height="match_parent"
+            android:text="@string/university_name"/>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:text="武汉大学"/>
+
+    </LinearLayout>
+
+    <View style="@style/style_line" />
+
+    <LinearLayout style="@style/personal_information_style">
+
+
+        <TextView
+            android:paddingLeft="16dp"
+            android:layout_width="120dp"
+            android:gravity="center_vertical"
+            android:layout_height="match_parent"
+            android:text="@string/education"/>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:text="硕士"/>
+
+    </LinearLayout>
+
+    <View style="@style/style_line" />
+
+
+
+    <LinearLayout style="@style/personal_information_style">
+
+
+        <TextView
+            android:paddingLeft="16dp"
+            android:layout_width="120dp"
+            android:gravity="center_vertical"
+            android:layout_height="match_parent"
+            android:text="@string/name"/>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:text="@string/school_time"/>
+
+    </LinearLayout>
+
+    <View style="@style/style_line" />
+
+
+    <LinearLayout style="@style/personal_information_style">
+
+
+        <TextView
+            android:paddingLeft="16dp"
+            android:layout_width="120dp"
+            android:gravity="center_vertical"
+            android:layout_height="match_parent"
+            android:text="@string/name"/>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:text="@string/learning_network"/>
+
+    </LinearLayout>
+
+    <View style="@style/style_line" />
+
+
+</LinearLayout>

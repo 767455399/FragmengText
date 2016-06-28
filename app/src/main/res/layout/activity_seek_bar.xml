@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="com.example.administrator.fragmenttext.ui.activity.SeekBarActivity">
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/activity_horizontal_margin"
+            android:layout_marginLeft="@dimen/activity_horizontal_margin"
+            android:layout_marginStart="@dimen/activity_horizontal_margin"
+            tools:text="123"
+            android:layout_marginBottom="@dimen/activity_horizontal_margin"
+            android:id="@+id/byStagesDiscreteTextView"/>
+
+
+
+
+
+    <org.adw.library.widgets.discreteseekbar.DiscreteSeekBar
+        android:id="@+id/byStagesDiscreteSeekBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        app:dsb_indicatorColor="#FC6E51"
+        app:dsb_max="4"
+        app:dsb_min="1"
+        app:dsb_progressColor="#FC6E51"
+        app:dsb_trackColor="#FC6E51" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/activity_horizontal_margin"
+        android:layout_marginLeft="@dimen/activity_horizontal_margin"
+        android:layout_marginStart="@dimen/activity_horizontal_margin"
+        tools:text="123"
+        android:layout_marginBottom="@dimen/activity_horizontal_margin"
+        android:id="@+id/amountOfMoneyDiscreteTextView"/>
+
+
+
+
+
+    <org.adw.library.widgets.discreteseekbar.DiscreteSeekBar
+        android:id="@+id/amountOfMoneyDiscreteSeekBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        app:dsb_indicatorColor="#FC6E51"
+        app:dsb_max="100"
+        app:dsb_min="1"
+        app:dsb_progressColor="#FC6E51"
+        app:dsb_trackColor="#FC6E51" />
+
+
+</LinearLayout>

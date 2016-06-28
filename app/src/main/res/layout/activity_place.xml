@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.administrator.fragmenttext.ui.activity.PlaceActivity">
+
+
+    <TextView
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:background="@color/drak"
+        android:gravity="center_vertical"
+        android:id="@+id/provincePlaceTextView"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:visibility="gone"
+        android:text="湖北省"/>
+
+    <TextView
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:visibility="gone"
+        android:background="@color/drak"
+        android:gravity="center_vertical"
+        android:id="@+id/cityPlaceTextView"
+        android:layout_width="match_parent"
+        android:text="咸宁市"
+        android:layout_height="40dp" />
+
+
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="@color/black"/>
+
+
+    <FrameLayout
+        android:id="@+id/placeFrameLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"></FrameLayout>
+
+</LinearLayout>

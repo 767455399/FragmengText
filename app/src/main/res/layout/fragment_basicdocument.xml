@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    >
+    <RelativeLayout
+        android:id="@+id/dataSubmittedSuccessfullyRelativeLayout"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="80dp"
+        android:background="@drawable/bg_success"
+        >
+        <com.example.administrator.fragmenttext.anim.SuccessView
+            android:id="@+id/dataSubmittedSuccessfullySuccessView"
+            android:layout_width="50dp"
+            android:layout_height="30dp"
+            android:layout_centerInParent="true" />
+
+
+    </RelativeLayout>
+
+  <ImageView
+      android:visibility="gone"
+      android:id="@+id/data_submitted_successfully"
+      android:layout_marginTop="80dp"
+      android:layout_gravity="center_horizontal"
+      android:layout_width="80dp"
+      android:layout_height="80dp"
+      android:src="@mipmap/ic_ok" />
+
+
+      <TextView
+          android:id="@+id/dataSubmittedSuccessfullyTextView"
+          android:layout_width="210dp"
+          android:layout_height="wrap_content"
+          android:text="@string/finish"
+          android:layout_marginTop="20dp"
+          android:textColor="#919191"
+          android:textSize="16sp"
+       />
+    
+    <Button
+        android:visibility="gone"
+        android:layout_marginTop="30dp"
+        android:layout_width="160dp"
+        android:layout_height="36dp"
+        android:textColor="#ffe8d7"
+        android:background="@drawable/button_shape"
+        android:text="@string/bound_bank_card"/>
+</LinearLayout>

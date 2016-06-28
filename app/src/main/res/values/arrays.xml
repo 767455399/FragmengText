@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer-array name="loading_colors">
+        <item>@color/loading_color_1</item>
+        <item>@color/loading_color_2</item>
+        <item>@color/loading_color_3</item>
+        <item>@color/loading_color_4</item>
+        <item>@color/loading_color_5</item>
+    </integer-array>
+    <!--<array name="months">
+        <item>@string/january</item>
+        <item>@string/february</item>
+        <item>@string/march</item>
+        <item>@string/april</item>
+        <item>@string/may</item>
+        <item>@string/june</item>
+        <item>@string/july</item>
+        <item>@string/august</item>
+        <item>@string/september</item>
+        <item>@string/october</item>
+        <item>@string/november</item>
+        <item>@string/december</item>
+    </array>-->
+
+    <array name="fruits">
+        <item>Avocado</item>
+        <item>Blueberry</item>
+        <item>Coconut</item>
+        <item>Kiwifruit</item>
+        <item>Lemon</item>
+        <item>Cherries</item>
+        <item>Apple</item>
+        <item>Banana</item>
+        <item>Mango</item>
+        <item>Orange</item>
+        <item>Watermelon</item>
+        <item>Strawberries</item>
+        <item>Durian</item>
+        <item>Guava</item>
+        <item>Jackfruit</item>
+        <item>Olive</item>
+        <item>Pear</item>
+        <item>Sugar-apple</item>
+        <item>Pineapple</item>
+    </array>
+
+    static final String[] FRUITS = new String[] { "Apple", "Avocado", "Banana",
+    "Blueberry", "Coconut", "Durian", "Guava", "Kiwifruit",
+    "Jackfruit", "Mango", "Olive", "Pear", "Sugar-apple" };
+
+    <string-array name="countries_array">
+        <item>山东省</item>
+        <item>河北省</item>
+        <item>河南省</item>
+        <item>辽宁省</item>
+        <item>浙江省</item>
+        <item>江苏省</item>
+        <item>安徽省</item>
+        <item>上海</item>
+        <item>北京</item>
+        <item>四川省</item>
+        <item>云南省</item>
+        <item>湖北省</item>
+        <item>江西省</item>
+        <item>关东省</item>
+        <item>福建省</item>
+    </string-array>
+    <string-array name="city_array">
+        <item>济宁市</item>
+        <item>青岛市</item>
+        <item>济南市</item>
+        <item>临沂市</item>
+        <item>淄博市</item>
+        <item>泰安市</item>
+        <item>枣庄市</item>
+        <item>烟台市</item>
+        <item>威海市</item>
+        <item>杭州市</item>
+    </string-array>
+
+    <string-array name="county_array">
+        <item>梁山县</item>
+        <item>东平县</item>
+        <item>显现</item>
+        <item>是非得失</item>
+        <item>斯蒂芬森</item>
+        <item>打发</item>
+        <item>是服</item>
+        <item>斯蒂芬的</item>
+    </string-array>
+
+    <string-array name="date">
+        <item>阿妹</item>
+        <item>阿郎</item>
+        <item>陈奕迅</item>
+        <item>周杰伦</item>
+        <item>曾一鸣</item>
+        <item>成龙</item>
+        <item>王力宏</item>
+        <item>汪峰</item>
+        <item>王菲</item>
+        <item>那英</item>
+        <item>张伟</item>
+        <item>张学友</item>
+        <item>李德华</item>
+        <item>郑源</item>
+        <item>白水水</item>
+        <item>白天不亮</item>
+        <item>陈龙</item>
+        <item>陈丽丽</item>
+        <item>哈林</item>
+        <item>高进</item>
+        <item>高雷</item>
+        <item>阮今天</item>
+        <item>龚琳娜</item>
+        <item>苏醒</item>
+        <item>苏永康</item>
+        <item>陶喆</item>
+        <item>沙宝亮</item>
+        <item>宋冬野</item>
+        <item>宋伟</item>
+        <item>袁成杰</item>
+        <item>戚薇</item>
+        <item>齐大友</item>
+        <item>齐天大圣</item>
+        <item>品冠</item>
+        <item>吴克群</item>
+        <item>BOBO</item>
+        <item>Jobs</item>
+        <item>动力火车</item>
+        <item>伍佰</item>
+        <item>#蔡依林</item>
+        <item>$797835344$</item>
+        <item>Jack</item>
+        <item>~夏先生</item>
+    </string-array>
+
+
+</resources>

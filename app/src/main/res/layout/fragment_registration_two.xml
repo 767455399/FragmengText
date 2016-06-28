@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/common_background_color"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_marginTop="20dp"
+        style="@style/style_line" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/white"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="26dp"
+            android:layout_height="26dp"
+            android:layout_marginLeft="16dp"
+            android:src="@mipmap/ic_sms_code"
+            />
+
+        <TextView
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/invitation_code1"/>
+
+
+        <EditText
+            android:id="@+id/verificationCodeEditText"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:textColorHint="@color/gray"
+            android:numeric="integer"
+            android:maxLength="6"
+            android:layout_weight="1"
+            android:textSize="14sp"
+            android:hint="@string/please_enter_the_verification_code_you_received"
+            android:background="@null"/>
+
+        <ImageView
+            android:layout_width="1px"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_height="match_parent"
+            android:background="@color/gray"/>
+
+        <Button
+            android:id="@+id/getVerificationCodeButton"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:layout_width="70dp"
+            android:layout_height="match_parent"
+            android:background="@null"
+            android:textSize="14sp"
+            android:textColor="@color/loading_color_3"
+            android:text="@string/click_to_get_verification_code"/>
+
+
+    </LinearLayout>
+
+    <ImageView
+        style="@style/style_line" />
+
+    <Button
+        android:id="@+id/nextButton"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:textColor="@color/white"
+        android:text="@string/next_set_the_password"
+        android:background="@drawable/button_background"
+        android:layout_width="match_parent"
+        android:layout_height="45dp" />
+
+</LinearLayout>

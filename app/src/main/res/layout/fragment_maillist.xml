@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/common_background_color"
+   >
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+    <Button
+        android:id="@+id/nba"
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:textColor="@color/white"
+        android:text="NBA"
+        android:background="@drawable/button_background"></Button>
+
+    <Button
+        android:text="商品信息"
+        android:id="@+id/shangpin"
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:textColor="@color/white"
+        android:background="@drawable/button_background"></Button>
+
+
+    <Button
+        android:text="考勤"
+        android:id="@+id/kaoqin"
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:textColor="@color/white"
+        android:background="@drawable/button_background"></Button>
+
+    <Button
+        android:text="工作"
+        android:id="@+id/gongzuo"
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:textColor="@color/white"
+        android:background="@drawable/button_background"></Button>
+
+    <Button
+        android:text="网点"
+        android:id="@+id/wangdian"
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:textColor="@color/white"
+        android:background="@drawable/button_background"></Button>
+
+    <Button
+        android:text="名人名言"
+        android:id="@+id/famousQuotes"
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:textColor="@color/white"
+        android:background="@drawable/button_background"></Button>
+
+    <Button
+        android:text="天气预报"
+        android:id="@+id/weather"
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:textColor="@color/white"
+        android:background="@drawable/button_background"></Button>
+
+
+    <Button
+        android:text="二维码扫描"
+        android:id="@+id/erweima"
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:textColor="@color/white"
+        android:background="@drawable/button_background"></Button>
+
+
+    <Button
+        android:text="语音验证码"
+        android:id="@+id/voiceSMS"
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:textColor="@color/white"
+        android:background="@drawable/button_background"></Button>
+
+    </LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/common_background_color"
+    android:orientation="vertical">
+
+
+    <ImageView
+        style="@style/style_line"
+        android:layout_marginTop="20dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/white"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_marginLeft="16dp"
+            android:src="@mipmap/ic_register_phone" />
+
+        <TextView
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/phone_no" />
+
+        <EditText
+            android:id="@+id/mobilePhoneEditText"
+            android:layout_width="0dp"
+            android:textSize="14sp"
+            android:phoneNumber="true"
+            android:maxLength="11"
+            android:textColorHint="@color/gray"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@null"
+            android:hint="@string/please_enter_your_mobile_phone_number" />
+
+    </LinearLayout>
+
+    <ImageView style="@style/style_line" />
+
+    <ImageView
+        style="@style/style_line"
+        android:layout_marginTop="10dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/white"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_marginLeft="16dp"
+            android:src="@mipmap/ic_invitation_code" />
+
+        <TextView
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/invitation_code1"/>
+
+        <EditText
+            android:id="@+id/invitationCodeEditText"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:textColorHint="@color/gray"
+            android:textSize="14sp"
+            android:hint="@string/please_input_the_invitation_code"
+            android:background="@null"
+            />
+
+
+
+        <ImageView
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:src="@mipmap/ic_qrcode_scan"
+            android:layout_marginRight="16dp"/>
+
+
+    </LinearLayout>
+
+    <ImageView
+        style="@style/style_line"/>
+
+    <Button
+        android:id="@+id/nextButton"
+        android:gravity="center"
+        android:layout_marginRight="16dp"
+        android:layout_marginLeft="16dp"
+        android:textColor="@color/white"
+        android:text="下一步，短信验证"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/button_background"/>
+
+
+</LinearLayout>

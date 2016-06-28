@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/commodity_background"
+    android:layout_marginTop="10dp"
+    android:layout_marginBottom="10dp"
+    android:paddingBottom="10dp"
+    android:layout_marginLeft="16dp"
+    android:layout_marginRight="16dp"
+    android:id="@+id/itemLinearLayout"
+    android:orientation="vertical">
+
+
+     <TextView
+         android:paddingLeft="16dp"
+         android:paddingRight="16dp"
+         android:id="@+id/productNameTextView"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:text="云南白药创可贴"/>
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="@color/cut_off_rule"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/productImageImageView"
+            android:layout_width="80dp"
+            android:layout_height="match_parent"
+            android:src="@mipmap/ab"
+            />
+        <ImageView
+            android:layout_width="1px"
+            android:layout_height="80dp"
+            android:background="@color/cut_off_rule"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/specificationsTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:text="1.5cmx2.3cmx6片"
+        />
+
+    <TextView
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:id="@+id/functionTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="止血，镇痛，消炎，愈创。用于小面积开放性创伤。"/>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="@color/cut_off_rule"/>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:gravity="center_vertical"
+        android:paddingRight="16dp"
+        android:paddingLeft="16dp"
+        android:layout_height="30dp">
+
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:gravity="center_vertical"
+            android:layout_weight="1"
+            android:text="2.5元"
+            android:id="@+id/priceTextView"/>
+
+        <ImageView
+            android:id="@+id/shoppingCartImageView"
+            android:layout_gravity="center"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:src="@mipmap/ic_ok"/>
+    </LinearLayout>
+</LinearLayout>
+
+
+    </LinearLayout>
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="@color/cut_off_rule"/>
+
+</LinearLayout>
+</FrameLayout>

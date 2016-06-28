@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+<FrameLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:layout_gravity="center"
+        android:layout_marginLeft="@dimen/activity_horizontal_margin"
+        android:layout_marginRight="@dimen/activity_horizontal_margin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/commodity_background"
+        android:orientation="vertical">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="90dp">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="16dp"
+            android:layout_centerVertical="true"
+            android:id="@+id/headPortraitImageView"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            />
+
+        <TextView
+            android:id="@+id/nameTextView"
+            android:layout_toRightOf="@+id/headPortraitImageView"
+            android:layout_marginTop="25dp"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:textSize="@dimen/text_size_large_18"
+            android:text="王清"/>
+
+        <TextView
+            android:layout_below="@+id/nameTextView"
+            android:layout_alignLeft="@+id/nameTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:textSize="@dimen/text_size_normal"
+            android:text="767455399"/>
+
+
+    </RelativeLayout>
+
+   <!-- 当我们要在不同的手机上绘制一个正方形控件，而且控件的大小随手机的大小变化而变化时，此时我们就要重写控件来达到我们的需求了，
+    在这里我们重写了FrameLayout让它的宽和高相等（在SquareFrameLayout类中定义），这样我们就能保证它是正方形了。-->
+    <com.example.administrator.fragmenttext.widget.roboto.SquareFrameLayout
+       android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:background="@drawable/commodity_background"
+        android:layout_marginBottom="40dp">
+
+        <RelativeLayout
+            android:layout_margin="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+          <ImageView
+            android:id="@+id/qrImageView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+            <ImageView
+                android:layout_centerInParent="true"
+                android:layout_width="36dp"
+                android:layout_height="36dp"
+                android:src="@mipmap/icon"/>
+
+        </RelativeLayout>
+
+        </com.example.administrator.fragmenttext.widget.roboto.SquareFrameLayout>
+
+        </LinearLayout>
+
+</FrameLayout>
+</LinearLayout>

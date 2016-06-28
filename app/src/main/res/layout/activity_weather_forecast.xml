@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/common_background_color"
+    android:orientation="vertical"
+    tools:context="com.example.administrator.fragmenttext.ui.activity.WeatherForecastActivity">
+
+    <!-- <include
+         android:id="@+id/mainToolbar"
+         layout="@layout/global_include_toolbar" />-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="5dp"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/weatherEditText"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:hint="请输入要查询的城市" />
+
+
+        <Button
+            android:id="@+id/weatherButton"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="查询" />
+
+    </LinearLayout>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/weatherRecyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        ></android.support.v7.widget.RecyclerView>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:background="@color/black"/>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="30dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/kongtiao"
+            android:textSize="20sp"
+            android:textColor="@color/loading_color_4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="空调:"/>
+
+        <TextView
+            android:id="@+id/kongtiaoTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/yundong"
+            android:textSize="20sp"
+            android:textColor="@color/loading_color_4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="运动:"
+            />
+
+        <TextView
+            android:id="@+id/yundongTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+
+        <TextView
+            android:id="@+id/ziwaixian"
+            android:textSize="20sp"
+            android:textColor="@color/loading_color_4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="紫外线:"/>
+
+        <TextView
+            android:id="@+id/ziwaixianTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/ganmao"
+            android:textSize="20sp"
+            android:textColor="@color/loading_color_4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="感冒:"/>
+
+        <TextView
+            android:id="@+id/ganmaoTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/xiche"
+            android:textSize="20sp"
+            android:textColor="@color/loading_color_4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="洗车:"/>
+
+        <TextView
+            android:id="@+id/xicheTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/wuran"
+            android:textSize="20sp"
+            android:textColor="@color/loading_color_4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="污染:"/>
+
+        <TextView
+            android:id="@+id/wuranTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/chuanyi"
+            android:textSize="20sp"
+            android:textColor="@color/loading_color_4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="穿衣:"/>
+
+        <TextView
+            android:id="@+id/chuanyiTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+
+    </LinearLayout>
+    </LinearLayout>
+
+</ScrollView>

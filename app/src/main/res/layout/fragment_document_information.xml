@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+    <TextView
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="1，上传手持身份证"/>
+
+        <com.example.administrator.fragmenttext.widget.FixRatioFrameLayout
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            app:baseOnWidth="true"
+            app:ratio="0.5"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+    <ImageView
+        android:background="@drawable/commodity_background"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/IdPhotoImageView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+        </com.example.administrator.fragmenttext.widget.FixRatioFrameLayout>
+
+    <TextView
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="请手持身份证拍摄，要求五官清晰无遮挡，身份证资料清晰。"/>
+
+
+    <View
+        android:layout_margin="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="@color/black"/>
+
+
+
+        <TextView
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2，上传手持学生证"/>
+
+        <com.example.administrator.fragmenttext.widget.FixRatioFrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            app:baseOnWidth="true"
+            app:ratio="0.5">
+
+        <ImageView
+            android:background="@drawable/commodity_background"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:id="@+id/studentCardInformationImageView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        </com.example.administrator.fragmenttext.widget.FixRatioFrameLayout>
+
+        <TextView
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="请手持身份证拍摄，要求五官清晰无遮挡，身份证资料清晰。"/>
+
+
+
+    <View
+        android:layout_margin="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="@color/black"/>
+
+
+
+        <TextView
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginTop="10dp"
+            android:id="@+id/otherInformationTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="3,上传其他补充资料（选填）"/>
+
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_marginTop="10dp"
+    android:layout_height="100dp"
+    android:orientation="horizontal">
+
+        <ImageView
+           android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_weight="1"
+            android:background="@drawable/commodity_background"
+            android:layout_gravity="center_vertical"
+            android:layout_width="0dp"
+            android:layout_height="60dp" />
+
+
+        <ImageView
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/commodity_background"
+            android:layout_weight="1"
+            android:layout_gravity="center_vertical"
+            android:layout_width="0dp"
+            android:layout_height="60dp" />
+
+
+        <ImageView
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/commodity_background"
+            android:layout_weight="1"
+            android:layout_gravity="center_vertical"
+            android:layout_width="0dp"
+            android:layout_height="60dp" />
+
+
+
+    </LinearLayout>
+
+    </LinearLayout>
+
+
+</ScrollView>

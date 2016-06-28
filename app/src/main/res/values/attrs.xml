@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <attr name="bgColor" format="color" />
+    <attr name="fgColor" format="color" />
+    <attr name="percent" format="float" />
+    <attr name="startAngle" format="float" />
+
+    <declare-styleable name="SectorProgressView">
+        <attr name="bgColor" />
+        <attr name="fgColor" />
+        <attr name="percent" />
+        <attr name="startAngle" />
+    </declare-styleable>
+
+    <declare-styleable name="ColorfulRingProgressView">
+        <attr name="bgColor" />
+        <attr name="fgColorStart" format="color" />
+        <attr name="fgColorEnd" format="color" />
+        <attr name="strokeWidth" format="dimension" />
+        <attr name="percent" />
+        <attr name="startAngle" />
+    </declare-styleable>
+
+    <declare-styleable name="FixRatioFrameLayout">
+        <attr name="ratio" format="float" />
+        <attr name="baseOnWidth" format="boolean" />
+    </declare-styleable>
+
+    <declare-styleable name="PatternView">
+        <attr name="lock_color" format="color" />
+        <attr name="wrong_color" format="color" />
+        <attr name="correct_color" format="color" />
+    </declare-styleable>
+
+    <declare-styleable name="CircleIndicator">
+        <attr name="ci_width" format="dimension" />
+        <attr name="ci_height" format="dimension" />
+        <attr name="ci_margin" format="dimension" />
+        <attr name="ci_animator" format="reference" />
+        <attr name="ci_animator_reverse" format="reference" />
+        <attr name="ci_drawable" format="reference" />
+        <attr name="ci_drawable_unselected" format="reference" />
+    </declare-styleable>
+    <declare-styleable name="PickerUI">
+        <!-- to use in PickerUI in the panel -->
+        <attr name="backgroundColor"    format="color"/>
+        <attr name="linesCenterColor"   format="color"/>
+
+        <!-- to use in PickerUIListView -->
+        <attr name="autoDismiss"        format="boolean"/>
+        <attr name="itemsClickables"    format="boolean"/>
+        <attr name="entries"            format="reference"/>
+
+        <!-- to use in PickerUI in the PickerUIListView by PickerUIAdapter -->
+        <attr name="textCenterColor"    format="color"/>
+        <attr name="textNoCenterColor"  format="color"/>
+
+        <!-- Blur Attributes -->
+        <attr name="blur"                   format="boolean"/>
+        <attr name="blur_downScaleFactor"   format="float"/>
+        <attr name="blur_FilterColor"       format="color"/>
+        <attr name="blur_radius"            format="integer"/>
+        <attr name="blur_use_renderscript"  format="boolean"/>
+
+    </declare-styleable>
+
+</resources>

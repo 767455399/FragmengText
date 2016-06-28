@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center">
+
+   <FrameLayout
+       android:layout_width="match_parent"
+       android:layout_height="match_parent">
+
+   <android.support.v7.widget.RecyclerView
+       android:id="@+id/nbaTodayRecyclerView"
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"></android.support.v7.widget.RecyclerView>
+
+
+   <LinearLayout
+       android:id="@+id/addNewAddressLinearLayout"
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:orientation="vertical">
+
+      <include
+          android:id="@+id/nullAddressMessage"
+          layout="@layout/common_loan_record_empty"
+          android:layout_width="match_parent"
+          android:layout_height="match_parent"
+          android:layout_gravity="center" />
+
+      <android.support.v7.widget.RecyclerView
+          android:id="@+id/addressManageReceiptRecyclerView"
+          android:layout_width="match_parent"
+          android:layout_height="match_parent">
+      </android.support.v7.widget.RecyclerView>
+
+   </LinearLayout>
+
+   </FrameLayout>
+
+
+</LinearLayout>
